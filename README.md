@@ -31,3 +31,9 @@ Problemas y soluciones
 Problema: Al desarrollar la interface con Compose y qurer usar el elemento setContent no se tenía disponible
 
 Solucion: tras ina investigación y apoyo del profesor se encontró que el problema era la ausencia de una dependencia en nuestro archivo buil.gradle.kts, al agregarse dicha dependecia se soluciono el problema.
+
+Video
+===============
+
+https://github.com/user-attachments/assets/591d1d15-bade-4371-8be0-e2129fe3b071
+

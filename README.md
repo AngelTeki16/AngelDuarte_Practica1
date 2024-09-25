@@ -25,3 +25,9 @@ Ejercicio 5. Reimplementación de la Actividad utilizando Jetpack Compose
 
 - Se reimplemeto el activity About con su interface en Compose, soportando Binding y compose respectivamente
 ---------------
+
+Problemas y soluciones
+===============
+Problema: Al desarrollar la interface con Compose y qurer usar el elemento setContent no se tenía disponible
+
+Solucion: tras ina investigación y apoyo del profesor se encontró que el problema era la ausencia de una dependencia en nuestro archivo buil.gradle.kts, al agregarse dicha dependecia se soluciono el problema.

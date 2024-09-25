@@ -86,14 +86,14 @@ class AboutActivity : AppCompatActivity() {
 
                 titleSection(stringResource(R.string.createdBy))
                 imageSection(imageResId = R.drawable.mymage)
-                buttonSection()
+                buttonSection(stringResource(R.string.noDisponible))
             }
 
         }
     }
 
     fun showToast(text : String){
-        val toast = Toast.makeText(this,text,Toast.LENGTH_LONG)
+        val toast = Toast.makeText(this,text,Toast.LENGTH_SHORT)
         toast.show()
     }
 
@@ -117,22 +117,22 @@ class AboutActivity : AppCompatActivity() {
     }
 
     @Composable
-    fun buttonSection() {
+    fun buttonSection(text : String) {
         Column(
             modifier = Modifier.fillMaxWidth().padding(bottom = 30.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
 
         ) {
-            Button(onClick = { showToast(text = "Funcion web no disponible")}) {
+            Button(onClick = { showToast(text)}) {
                 Text(stringResource(R.string.goWeb))
             }
 
-            Button(onClick = { showToast(text = "Funcion soporte no disponible")}) {
+            Button(onClick = { showToast(text)}) {
                 Text(stringResource(R.string.getSupport))
             }
 
-            Button(onClick = { showToast(text = "Funcion volver no disponible")}) {
+            Button(onClick = { showToast(text)}) {
                 Text(stringResource(R.string.back))
             }
         }

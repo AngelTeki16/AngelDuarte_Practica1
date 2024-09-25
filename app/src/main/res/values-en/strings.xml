@@ -5,4 +5,5 @@
     <string name="goWeb">Go web site</string>
     <string name="getSupport">Get support</string>
     <string name="back">Back</string>
+    <string name="noDisponible">Function not available</string>
 </resources>

@@ -5,4 +5,5 @@
     <string name="goWeb">Ir al sitio web</string>
     <string name="getSupport">Obtener soporte</string>
     <string name="back">Volver</string>
+    <string name="noDisponible">Funcion no disponible</string>
 </resources>

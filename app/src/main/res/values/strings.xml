@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Filmoteca</string>
+    <string name="createdBy">Creado por Angel Tekiani</string>
+    <string name="goWeb">Ir al sitio web</string>
+    <string name="getSupport">Obtener soporte</string>
+    <string name="back">Volver</string>
+</resources>

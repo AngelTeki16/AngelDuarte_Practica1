@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Filmoteca</string>
+    <string name="createdBy">Crated by Angel Tekiani</string>
+    <string name="goWeb">Go web site</string>
+    <string name="getSupport">Get support</string>
+    <string name="back">Back</string>
+</resources>
